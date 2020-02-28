@@ -109,32 +109,32 @@ function Footer (){
 Footer();
 console.log(Footer);
 
-//form-section
-// function myForm () {
+form-section
+function myForm () {
 
-// var addForm = document.getElementById('addForm');
+var addForm = document.getElementById('addForm');
 
-// addForm.addEventListener('submit' , function(event){
-//     event.preventDefault();
+addForm.addEventListener('submit' , function(event){
+    event.preventDefault();
 
-//     var cityName = event.target.name.value;
-//     var min=parseInt(event.target.min.value);
-//     var max=parseInt(event.target.max.value);
-//     var avg=parseInt(event.target.avg.value);
+    var cityName = event.target.name.value;
+    var min=parseInt(event.target.min.value);
+    var max=parseInt(event.target.max.value);
+    var avg=parseInt(event.target.avg.value);
 
-//     for (var i=0; i<Shop1.length;i++){
-//         if (cityName === Shop1[i].name){
-//             return alert ('Store Name already exists');
-//         }
-//     }
-//     if (max<min){
-//         return alert('The max is less than the min ')
-//     }
-//     tableEl.removeChild(tableEl.lastChild);
-//     new City (cityName,min,max,avg);
+    for (var i=0; i<Shop1.length;i++){
+        if (cityName === Shop1[i].name){
+            return alert ('Store Name already exists');
+        }
+    }
+    if (max<min){
+        return alert('The max is less than the min ')
+    }
+    tableEl.removeChild(tableEl.lastChild);
+    new City (cityName,min,max,avg);
 
-//     Footer();
-// });
+    Footer();
+});
 
-// }
+}
 myForm();
