@@ -1,0 +1,254 @@
+body {
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(https://www.biggerbolderbaking.com/wp-content/uploads/2019/06/Crazy-No-Bake-Cookies1.jpg);
+
+    
+  }
+  
+  
+  header{
+    /* background-color: antiquewhite; */
+    background-size: cover;
+    height: 111px;
+    margin-bottom: 10px;
+    
+    padding: 8px;
+  }
+  
+  h1 {
+   
+    color : black;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+  }
+  
+  header.logo{
+    /* float: right; */
+   
+  }
+  
+  header ul li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 71px;
+    padding-left: 199px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu {
+    text-decoration: none;
+    color: black;
+  }
+  
+ 
+  .paragraph{
+    position: relative;
+    background-image: url(https://www.biggerbolderbaking.com/wp-content/uploads/2019/06/Crazy-No-Bake-Cookies1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1344px;
+    margin: auto;
+    height: 300px;
+  }
+  .p1{
+    position: absolute;
+    top: 10%;
+    left: 14%;
+    right: 54%;
+    text-align: center;
+  
+  }
+  .p2{
+    position: absolute;
+    top: 10%;
+    left: 54%;
+    right: 14%;
+    text-align: center;
+  
+  }
+  h2{
+    font-size: 43px;
+    font-style: italic;
+    font-weight: 800;
+  }
+
+  .maps{
+  position: relative ;
+  padding: 20px 0px ;
+  
+  height: 158px;
+  margin-top: 30px;
+  height: 300px;
+  }
+  
+  iframe {
+    height: 287px;
+    width: 249px;
+  }
+  .seattle{
+    position: absolute;
+    top: 10%;
+    left: 2%;
+  }
+  .tokyo{
+    position: absolute ;
+    top : 10%;
+    left: 22%;
+    text-align: center ;
+    font-size: 12px;
+  
+  }
+  .dubai{
+    position: absolute ;
+    top : 10%;
+    left : 42%;
+    text-align: center ;
+    font-size: 12px;
+  }
+  .paris{
+    position: absolute ;
+    top : 10%;
+    left : 62%;
+    text-align: center ; 
+    font-size: 12px;
+  
+  }
+  .lima{
+    position: absolute ;
+    top : 10%;
+    left : 82%;
+    text-align: center ; 
+    font-size: 12px;
+  
+  }
+ 
+  .lastSection{
+  position: relative ;
+  padding: 20px 0px ;
+  background-color:  darksalmon;
+  height: 158px;
+  border-block-end: 1px solid rgb(158, 158, 158);
+  margin-top: 30px;
+  color: white;
+  }
+  .socialMesia{
+  position: absolute ;
+  top : 10%;
+  left : 0%;
+  text-align: center ;
+  font-size: 25px;
+  }
+  .aboutAs{
+  position: absolute ;
+  top : 20%;
+  left : 20%;
+  text-align: center ;
+  font-size: 12px;
+  }
+  .service{
+  position: absolute ;
+  top : 20%;
+  left : 40%;
+  text-align: center ;
+  font-size: 12px;
+  }
+  .company{
+  position: absolute ;
+  top : 20%;
+  left : 60%;
+  text-align: center ;
+  font-size: 12px;
+  }
+  .connect{
+    position: absolute ;
+    top : 20%;
+    left : 80%;
+    text-align: center ; 
+    font-size: 12px;
+  }
+  h5 {
+    font-size: 20px;
+    padding-bottom: 18px;
+  }
+  .logo{
+    width: 280px;
+  }
+
+  footer {
+    padding: 10px;
+    background-color:  darksalmon;
+  }
+  
+  footer ul li {
+  display: inline ;
+  padding-left: 10%;
+  color:rgb (158, 158, 158) ;
+  }
+  
+  a{
+    color: white;
+  }
+ 
+    
+   
+  table {
+    border-collapse: collapse;
+    width: 60%;
+    position: relative;
+    left: 25%;
+  }
+  
+  
+  table, th, td {
+    border: 1px solid black;
+   
+  }
+  
+  th {
+    text-align: center;
+    height: 50px;
+    background-color: darksalmon;;
+  }
+  tr {
+      height: 50px;
+  }
+  
+  td{
+    background-color: darksalmon;
+  }
+  
+  
+  input {
+    width: 225px;
+    height: 25px;
+    margin: 5px;
+  }
+  
+  label{
+    margin: 20px;
+  
+  }
+  legend{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+  }
+  form{
+    border: 2px solid #9a9da3;
+    /* background-color:rgb(255, 255, 255); */
+    text-align: center;
+    margin: 20px;
+  }
+  #name {
+    margin-left: 136px;
+    margin-top: 22px;
+  }
+  #avg{
+    margin-left: 82px;
+  }
